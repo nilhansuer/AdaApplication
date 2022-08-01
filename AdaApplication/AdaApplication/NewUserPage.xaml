@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdaApplication.NewUserPage">
+    <ContentPage.Content>
+        <Grid Grid.Row="1" >
+            <StackLayout Padding="30" Margin="2" >
+                <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+                    <Label Text="Username" FontSize="20"/>
+                    <Entry x:Name="new_username"
+                           HorizontalOptions="EndAndExpand"
+                           Placeholder="enter a username"
+                           TextColor="Gray"
+                           PlaceholderColor="LightBlue"
+                           ></Entry>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+                    <Label Text="Name" FontSize="20"/>
+                    <Entry x:Name="Name"
+                           HorizontalOptions="EndAndExpand"
+                           Placeholder="enter your name"
+                           TextColor="Gray"
+                           PlaceholderColor="LightBlue"
+                           ></Entry>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+                    <Label Text="Surname" FontSize="20"/>
+                    <Entry x:Name="Surname"
+                           HorizontalOptions="EndAndExpand"
+                           Placeholder="enter your surname"
+                           TextColor="Gray"
+                           PlaceholderColor="LightBlue"
+                           ></Entry>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+                    <Label Text="Password" FontSize="20"/>
+                    <Entry x:Name="new_password"
+                           HorizontalOptions="EndAndExpand"
+                           Placeholder="enter a password"
+                           TextColor="Gray"
+                           PlaceholderColor="LightBlue"
+                           ></Entry>
+                </StackLayout>
+
+                <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                    <Button
+                        VerticalOptions="Center"
+                        HorizontalOptions="FillAndExpand"
+                        Text="CONFIRM"
+                        FontSize="22"
+                        TextColor="White"
+                        BackgroundColor="RoyalBlue"
+                        BorderColor="Black"
+                        BorderWidth="2"
+                        WidthRequest="115"
+                        CornerRadius="10"
+                        Clicked="OnClicked_Confirm"
+                        
+                    ></Button>
+                </StackLayout>
+
+            </StackLayout>
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

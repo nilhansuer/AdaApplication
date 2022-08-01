@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdaApplication.HomePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nilhan Süer"
+                   FontSize="30"
+                   TextColor="White"
+                   FontAttributes="Bold"                  
+                   VerticalOptions="Start"                    
+                   HorizontalOptions="StartAndExpand"
+                   Background="purple" 
+                   HeightRequest="80"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
